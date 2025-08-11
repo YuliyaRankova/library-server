@@ -3,4 +3,4 @@ import {bookRouter} from "./bookRouter.ts";
 
 export const libRouter = express.Router();
 
-libRouter.use('/book', bookRouter);
+libRouter.use('/books', bookRouter);
